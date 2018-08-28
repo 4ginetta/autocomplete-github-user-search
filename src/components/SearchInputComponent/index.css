@@ -1,0 +1,38 @@
+.inputWrapper {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+}
+.inputWrapper input {
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
+  background: #fff;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline-width: 0;
+ }
+.inputWrapper .magnifying {
+  position: absolute;
+  top: 31px;
+  left: 5px;
+  filter: brightness(0.4);
+}
+.inputWrapper .loading {
+  position: absolute;
+  top: 34px;
+  right: 10px;
+}
+.searchInput {
+  text-align: left;
+  font-size: 16px;
+  padding: 12px 40px 12px 40px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  margin-top: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.searchInput::-webkit-input-placeholder {
+  color: #A9A9A9;
+}

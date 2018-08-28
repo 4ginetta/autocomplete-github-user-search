@@ -1,0 +1,10 @@
+.bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  max-width: 860px;
+  z-index: -1;
+}

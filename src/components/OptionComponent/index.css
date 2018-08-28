@@ -1,0 +1,24 @@
+.option {
+  border-top: 1px solid #f6f5fa;
+  height: 50px;
+  line-height: 50px;
+}
+.option:hover {
+  background: #5b72a8;
+}
+.activeOption {
+  background: #5b72a8;
+}
+
+.optionImg {
+  width: 35px;
+  height: 35px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.optionText {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 12px;
+}

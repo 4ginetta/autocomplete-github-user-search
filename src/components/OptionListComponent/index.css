@@ -1,0 +1,25 @@
+.optionsWrapper {
+  position: absolute;
+  background: #f6f5fa;
+  left: 50%;
+  margin-left: -125px;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.05);
+}
+
+.resultsTitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 16px 8px 16px;
+  color: #858584;
+  text-transform: uppercase;
+}
+
+.options {
+  background: #fff;
+  text-align: left;
+  max-height: 250px;
+  overflow-y: auto;
+}
